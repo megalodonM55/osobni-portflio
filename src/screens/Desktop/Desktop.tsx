@@ -102,7 +102,8 @@ export const Desktop = (): JSX.Element => {
                     <br />
                   </span>
                   <span className="font-normal">
-                    Od 3D modelování až po kódování a video produkci.
+                    Od 3D modelování až po kódování a video produkci. <br />
+                    16 let
                   </span>
                 </div>
 
