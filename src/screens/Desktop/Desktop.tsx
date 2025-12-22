@@ -531,7 +531,7 @@ export const Desktop = (): JSX.Element => {
                   <img
                     className="w-full md:w-[400px] h-auto object-cover rounded"
                     alt="Electronics assembly"
-                    src="/pxl-20251214-121016743--1--1.png"
+                    src="rozvrhopen.jpg"
                   />
                 </div>
                 <div className="flex-1">
