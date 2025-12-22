@@ -493,7 +493,7 @@ export const Desktop = (): JSX.Element => {
             <div className="p-12">
               <Button
                 variant="outline"
-                className="absolute top-8 right-8 rounded-[15px] border-black h-[47px] px-6 hover:bg-gray-100 z-20"
+                className="absolute bottom-8 right-8 rounded-[15px] border-black h-[47px] px-6 hover:bg-gray-100"
                 onClick={() => setIsRozvrhModalOpen(false)}
               >
                 <ArrowLeft className="w-5 h-5 mr-2" />
