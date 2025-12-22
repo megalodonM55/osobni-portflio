@@ -136,7 +136,7 @@ export const Desktop = (): JSX.Element => {
                 Student na Eko Gymnáziu v Brně. Baví mě moderní technologie a
                 programování. Ve volném čase se věnuji 3D modelování a tisku,
                 programování, stříhání videí a elektrotechnice. Rád se vzdělávám
-                o nových technolgiích a dění ve světě.
+                o nových technologiích a dění ve světě.
               </p>
             </div>
             <div className="flex-shrink-0">
@@ -236,6 +236,8 @@ export const Desktop = (): JSX.Element => {
                             setIsUnityModalOpen(true);
                           } else if (index === 1) {
                             setIsYoutubeModalOpen(true);
+                          } else if (index === 2) {
+                            setIsRozvrhModalOpen(true);
                           }
                         }}
                       >
