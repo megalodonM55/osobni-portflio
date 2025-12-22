@@ -415,7 +415,7 @@ export const Desktop = (): JSX.Element => {
                 <div className="flex-shrink-0">
                   <iframe
                     className="w-full md:w-[400px] h-auto aspect-video rounded"
-                    src="https://youtu.be/klfK3QELy_Y"
+                    src="https://www.youtube.com/embed/klfK3QELy_Y?si=w9xSBmrC66ZMpOwG"
                     title="YouTube video"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
