@@ -519,7 +519,7 @@ export const Desktop = (): JSX.Element => {
                 </div>
                 <div className="flex-shrink-0">
                   <img
-                    className="w-full md:w-[400px] h-auto object-cover rounded"
+                    className="w-full md:w-[360px] h-auto max-h-[60vh] object-contain rounded"
                     alt="Meeting room display"
                     src="/pxl-20251221-093513844-1.png"
                   />
@@ -529,7 +529,7 @@ export const Desktop = (): JSX.Element => {
               <div className="flex flex-col md:flex-row gap-8 mb-8">
                 <div className="flex-shrink-0">
                   <img
-                    className="w-full md:w-[400px] h-auto object-cover rounded"
+                    className="w-full md:w-[360px] h-auto max-h-[60vh] object-contain rounded"
                     alt="Electronics assembly"
                     src="rozvrhopen.jpg"
                   />
