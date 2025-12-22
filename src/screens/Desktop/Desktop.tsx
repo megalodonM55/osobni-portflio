@@ -105,9 +105,11 @@ export const Desktop = (): JSX.Element => {
                   </span>
                 </div>
 
-                <Button className="bg-[#458fc4] hover:bg-[#3a7aaa] text-[#fffcf9] rounded-[20px] px-12 py-6 h-[47px] [font-family:'Public_Sans',Helvetica] font-semibold text-xl">
-                  Kontakt
-                </Button>
+                <a href="#contact">
+                  <Button className="bg-[#458fc4] hover:bg-[#3a7aaa] text-[#fffcf9] rounded-[20px] px-12 py-6 h-[47px] [font-family:'Public_Sans',Helvetica] font-semibold text-xl">
+                    Kontakt
+                  </Button>
+                </a>
               </div>
 
               <div className="flex-shrink-0">
