@@ -66,6 +66,7 @@ const contactInfo = [
 
 export const Desktop = (): JSX.Element => {
   const [isUnityModalOpen, setIsUnityModalOpen] = useState(false);
+  const [isYoutubeModalOpen, setIsYoutubeModalOpen] = useState(false);
 
   return (
     <div className="relative w-full min-h-screen bg-[#c0d1d8] overflow-hidden">
@@ -228,6 +229,8 @@ export const Desktop = (): JSX.Element => {
                         onClick={() => {
                           if (index === 0) {
                             setIsUnityModalOpen(true);
+                          } else if (index === 1) {
+                            setIsYoutubeModalOpen(true);
                           }
                         }}
                       >
@@ -363,6 +366,92 @@ export const Desktop = (): JSX.Element => {
                       className="text-[#458fc4] hover:underline break-all"
                     >
                       https://drive.google.com/drive/folders/1XgBCd4aw40VyeMgYBzCOxfs6Z6JPJyt0?usp=drive_link
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {isYoutubeModalOpen && (
+        <div
+          className="fixed inset-0 z-50 bg-black/50 flex items-center justify-center p-4"
+          onClick={() => setIsYoutubeModalOpen(false)}
+        >
+          <div
+            className="bg-[#fffcf9] max-w-6xl w-full max-h-[90vh] overflow-y-auto rounded-lg border-4 border-[#458fc4] relative"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="p-12">
+              <Button
+                variant="outline"
+                className="absolute bottom-8 right-8 rounded-[15px] border-black h-[47px] px-6 hover:bg-gray-100"
+                onClick={() => setIsYoutubeModalOpen(false)}
+              >
+                <ArrowLeft className="w-5 h-5 mr-2" />
+                <span className="[font-family:'Public_Sans',Helvetica] font-semibold text-black text-xl">
+                  Zpět
+                </span>
+              </Button>
+
+              <h1 className="[font-family:'Public_Sans',Helvetica] font-bold text-black text-5xl tracking-[0] leading-[normal] mb-8">
+                Youtube videa
+              </h1>
+
+              <div className="flex flex-col md:flex-row gap-8 mb-8">
+                <div className="flex-1">
+                  <p className="[font-family:'Public_Sans',Helvetica] font-normal text-black text-xl tracking-[0] leading-[31px] mb-6">
+                    Tvorbě videí se věnuji jak ve volném čase, tak v rámci školních
+                    projektů. Moje práce zahrnuje kompletní proces od přípravy
+                    scénáře a konceptu přes samotné natáčení až po náročnou
+                    postprodukci. Právě v postprodukci se zaměřuji na precizní střih
+                    podle scénáře, barevné korekce a aplikaci efektů.
+                  </p>
+                </div>
+                <div className="flex-shrink-0">
+                  <iframe
+                    className="w-full md:w-[400px] h-auto aspect-video rounded"
+                    src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                    title="YouTube video"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+              </div>
+
+              <div className="flex flex-col md:flex-row gap-8 mb-8">
+                <div className="flex-shrink-0">
+                  <iframe
+                    className="w-full md:w-[400px] h-auto aspect-video rounded"
+                    src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                    title="YouTube video"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+                <div className="flex-1">
+                  <p className="[font-family:'Public_Sans',Helvetica] font-normal text-black text-xl tracking-[0] leading-[31px] mb-6">
+                    K tvorbě videí využívám DJI mini 3 pro a Google Pixel 9 pro.
+                    Také je důležitý DaVinci resolve díky kterému jsem schopný
+                    poskládat video a provést potřebné úpravy (VFX, SFX, colorgrading).
+                  </p>
+                  <p className="[font-family:'Public_Sans',Helvetica] font-normal text-black text-xl tracking-[0] leading-[31px] mb-6">
+                    Svou tvorbou se snažím brát seriózně, kvůli pravidlům youtube a
+                    budoucí vzzužití některých videí.
+                  </p>
+                  <div className="[font-family:'Public_Sans',Helvetica] font-normal text-black text-xl tracking-[0] leading-[31px]">
+                    <p className="font-semibold mb-2">Link na YT kanál:</p>
+                    <a
+                      href="https://www.youtube.com/channel/UCmm2Wv2SSAH8VI-GE8Myogg"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-[#458fc4] hover:underline break-all"
+                    >
+                      https://www.youtube.com/channel/UCmm2Wv2SSAH8VI-GE8Myogg
                     </a>
                   </div>
                 </div>
