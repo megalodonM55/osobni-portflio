@@ -24,7 +24,7 @@ const projectsData = [
     image: "/2dprojectbuild-screenshot-2025-12-06---20-50-02-39-1.png",
   },
   {
-    title: "YoutubeIcon videa",
+    title: "Youtube videa",
     description:
       "Tvorbě videí se věnuji jak ve volném čase, tak v rámci školních projektů. Moje práce zahrnuje kompletní proces od přípravy scénáře a konceptu přes samotné natáčení až po náročnou postprodukci. Právě v postprodukci se zaměřuji na precizní střih podle scénáře...",
     image: "/nahledovka-1.png",
@@ -54,7 +54,8 @@ const contactInfo = [
   },
   {
     icon: InstagramIcon,
-    text: "Instagram: https://www.instagram.com/vojtila_d/",
+    text: "Instagram:",
+    href: "https://www.instagram.com/vojtila_d/",
     image: "/image-7.png",
   },
   {
@@ -273,7 +274,18 @@ export const Desktop = (): JSX.Element => {
                       <info.icon className="w-[29px] h-[29px] flex-shrink-0" />
                     )}
                     <p className="[font-family:'Inter',Helvetica] font-normal text-black text-2xl tracking-[0] leading-[normal]">
-                      {info.text}
+                      {info.href ? (
+                        <a
+                          href={info.href}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-black hover:underline"
+                        >
+                          {info.text}
+                        </a>
+                      ) : (
+                        info.text
+                      )}
                     </p>
                   </div>
                 ))}
