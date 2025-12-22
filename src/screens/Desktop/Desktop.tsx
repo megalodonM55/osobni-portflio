@@ -415,7 +415,7 @@ export const Desktop = (): JSX.Element => {
                 <div className="flex-shrink-0">
                   <iframe
                     className="w-full md:w-[400px] h-auto aspect-video rounded"
-                    src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                    src="https://youtu.be/klfK3QELy_Y"
                     title="YouTube video"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -428,7 +428,7 @@ export const Desktop = (): JSX.Element => {
                 <div className="flex-shrink-0">
                   <iframe
                     className="w-full md:w-[400px] h-auto aspect-video rounded"
-                    src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                    src="https://youtu.be/_Eo9BhgH9nc"
                     title="YouTube video"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
