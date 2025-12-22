@@ -54,13 +54,14 @@ const contactInfo = [
   },
   {
     icon: InstagramIcon,
-    text: "Instagram:",
+    text: "Instagram",
     href: "https://www.instagram.com/vojtila_d/",
     image: "/image-7.png",
   },
   {
     icon: YoutubeIcon,
-    text: "Youtube: https://www.youtube.com/@davidvojtila9044",
+    text: "Youtube",
+    href: "https://www.youtube.com/@davidvojtila9044",
     image: "/image-8.png",
   },
 ];
