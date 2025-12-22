@@ -333,7 +333,7 @@ export const Desktop = (): JSX.Element => {
                   <img
                     className="w-full md:w-[400px] h-auto object-cover rounded"
                     alt="Unity game screenshot"
-                    src="/2dprojectbuild-screenshot-2025-12-06---20-50-02-39-1.png"
+                    src="/herojump.png"
                   />
                 </div>
               </div>
@@ -343,19 +343,20 @@ export const Desktop = (): JSX.Element => {
                   <img
                     className="w-full md:w-[400px] h-auto object-cover rounded"
                     alt="Unity game screenshot 2"
-                    src="/2dprojectbuild-screenshot-2025-12-06---20-50-02-39-1.png"
+                    src="/heroattack.png"
                   />
                 </div>
                 <div className="flex-1">
                   <p className="[font-family:'Public_Sans',Helvetica] font-normal text-black text-xl tracking-[0] leading-[31px] mb-6">
-                    Koncept plošinovky jsem zvolil kvůli jednoduchosti a širokému
-                    zájmu. Při programování jsem využíval zkušeností z
+                    Koncept plošinovky jsem zvolil kvůli jednoduchosti a
+                    širokému zájmu. Při programování jsem využíval zkušeností z
                     předchozích hodin a tutoriálů na youtube.
                   </p>
                   <p className="[font-family:'Public_Sans',Helvetica] font-normal text-black text-xl tracking-[0] leading-[31px] mb-6">
-                    Hra má své mouchy jako absence pause menu, nízký počet levelů
-                    nebo chybějící PVE combat. Tvorbou jsem strávil pouze 3 dny, z
-                    toho důvodu si myslím že jednoduchost hrz je odpovídající.
+                    Hra má své mouchy jako absence pause menu, nízký počet
+                    levelů nebo chybějící PVE combat. Tvorbou jsem strávil pouze
+                    3 dny, z toho důvodu si myslím že jednoduchost hrz je
+                    odpovídající.
                   </p>
                   <div className="[font-family:'Public_Sans',Helvetica] font-normal text-black text-xl tracking-[0] leading-[31px]">
                     <p className="font-semibold mb-2">Link na stažení:</p>
@@ -403,11 +404,12 @@ export const Desktop = (): JSX.Element => {
               <div className="flex flex-col md:flex-row gap-8 mb-8">
                 <div className="flex-1">
                   <p className="[font-family:'Public_Sans',Helvetica] font-normal text-black text-xl tracking-[0] leading-[31px] mb-6">
-                    Tvorbě videí se věnuji jak ve volném čase, tak v rámci školních
-                    projektů. Moje práce zahrnuje kompletní proces od přípravy
-                    scénáře a konceptu přes samotné natáčení až po náročnou
-                    postprodukci. Právě v postprodukci se zaměřuji na precizní střih
-                    podle scénáře, barevné korekce a aplikaci efektů.
+                    Tvorbě videí se věnuji jak ve volném čase, tak v rámci
+                    školních projektů. Moje práce zahrnuje kompletní proces od
+                    přípravy scénáře a konceptu přes samotné natáčení až po
+                    náročnou postprodukci. Právě v postprodukci se zaměřuji na
+                    precizní střih podle scénáře, barevné korekce a aplikaci
+                    efektů.
                   </p>
                 </div>
                 <div className="flex-shrink-0">
@@ -437,11 +439,12 @@ export const Desktop = (): JSX.Element => {
                   <p className="[font-family:'Public_Sans',Helvetica] font-normal text-black text-xl tracking-[0] leading-[31px] mb-6">
                     K tvorbě videí využívám DJI mini 3 pro a Google Pixel 9 pro.
                     Také je důležitý DaVinci resolve díky kterému jsem schopný
-                    poskládat video a provést potřebné úpravy (VFX, SFX, colorgrading).
+                    poskládat video a provést potřebné úpravy (VFX, SFX,
+                    colorgrading).
                   </p>
                   <p className="[font-family:'Public_Sans',Helvetica] font-normal text-black text-xl tracking-[0] leading-[31px] mb-6">
-                    Svou tvorbou se snažím brát seriózně, kvůli pravidlům youtube a
-                    budoucí vzzužití některých videí.
+                    Svou tvorbou se snažím brát seriózně, kvůli pravidlům
+                    youtube a budoucí vzzužití některých videí.
                   </p>
                   <div className="[font-family:'Public_Sans',Helvetica] font-normal text-black text-xl tracking-[0] leading-[31px]">
                     <p className="font-semibold mb-2">Link na YT kanál:</p>
